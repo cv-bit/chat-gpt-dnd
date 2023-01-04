@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+  
+  header {
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header img {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+    background-color: #ccc;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  main {
+    float: left;
+    width: 60%;
+    min-height: 70vh;
+    padding: 20px;
+  }
+  
+  main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main li {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main img {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+
+  .item-section {
+    width: 20%;
+    float: right;
+  }
+
+  .more-campaigns {
+    /* style="width: 100%; min-height: 300px; display: flex; padding-left: 50px" */
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    padding-left: 50px;
+  }
+  
+.npc-encounters-locations {
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.main-campaign-img {
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.campaign-intro-txt {
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+  footer {
+    clear: both;
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  :root {
+    /* dark and moody theme */
+    --deep-purple: #5e3f6b;
+    --dark-blue: #0c1e3f;
+    --forest-green: #0b6623;
+    /* bright and vibrant theme */
+    --bright-red: #ff1a1a;
+    --orange: #ff9f1a;
+    --yellow: #ffff1a;
+    /* earthy tones theme */
+    --dark-brown: #5c3a22;
+    --olive-green: #7f9a44;
+    --light-grey: #d3d3d3;
+    /* soft pastel theme */
+    --pale-pink: #ffb6c1;
+    --light-blue: #add8e6;
+    --Lavender: #e6e6fa;
+
+    /* other colors */
+    --black: #080808;
+  }
