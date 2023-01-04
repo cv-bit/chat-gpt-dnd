@@ -46,6 +46,55 @@ a {
     text-decoration: none;
     padding: 10px;
   }
+
+  /* hero section */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .hero img {
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px 0;
+  }
+  
+  .hero .button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #777;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero .button:hover {
+    background-color: #fff;
+    color: #777;
+  }
+
+  .landing-info-section {
+    max-width: 80%;
+    float: right;
+    padding: 25px;
+  }
   
   main {
     float: left;
@@ -104,6 +153,34 @@ a {
 .campaign-intro-txt {
   margin-top: 40px;
   margin-bottom: 120px;
+}
+
+.more-campaigns {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-campaigns ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.more-campaigns ul li {
+  background-color: #ddd;
+  max-width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-campaigns img {
+  height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
   footer {
